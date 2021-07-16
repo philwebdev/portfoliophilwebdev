@@ -1,0 +1,29 @@
+nav{
+  background-color: #1b242f;
+  .navbar-collapse{
+    padding-left: 85px;
+    .nav-item{
+      a{
+        color:white;
+        &:hover{
+          color:#04c2c9;
+        }
+      }
+      &:first-child{
+        a{
+          color: #04c2c9;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:768px) {
+  nav{
+    .navbar-collapse{
+      padding-left: 0px;
+    }
+  }
+}
+
+
+

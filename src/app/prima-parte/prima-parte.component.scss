@@ -1,0 +1,22 @@
+
+.contenitore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background: url("/assets/img/sfondoportfolio.gif");
+  height: 100vh;
+  color:white;
+  .centered{
+    span{
+      color:#04c2c9;
+    }
+    button{
+      color:white;
+      &:hover{
+        background-color: #04c2c9;
+      }
+    }
+  }
+}
+

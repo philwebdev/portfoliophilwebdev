@@ -1,0 +1,19 @@
+.contenitore-bottone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 10px;
+}
+
+.contenitore-bottone button {
+  color: black;
+}
+
+.contenitore-bottone button:hover {
+  background-color: #04c2c9;
+  color: white;
+}
+/*# sourceMappingURL=projects.component.css.map */

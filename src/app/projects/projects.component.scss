@@ -1,0 +1,12 @@
+.contenitore-bottone{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  button{
+    color:black;
+    &:hover{
+      background-color: #04c2c9;
+      color:white;
+    }
+  }
+}

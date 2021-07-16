@@ -1,0 +1,38 @@
+.contact{
+  background-color:#252934;
+  .box{
+    h3{
+      color:white;
+      text-align: center;
+    }
+    p{
+      text-align: center;
+      color:#04c2c9;
+    }
+    a{
+      text-decoration: none;
+      color:white;
+    }
+  }
+}
+.social{
+  padding-top: 20px;
+  background-color: #1b242f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  img{
+    padding: 10px;
+  }
+  .box:last-child{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    span{
+      color:white;
+    }
+  }
+
+}

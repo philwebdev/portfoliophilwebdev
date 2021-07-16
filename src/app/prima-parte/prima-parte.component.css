@@ -1,0 +1,29 @@
+.contenitore {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background: url("/assets/img/sfondoportfolio.gif");
+  height: 100vh;
+  color: white;
+}
+
+.contenitore .centered span {
+  color: #04c2c9;
+}
+
+.contenitore .centered button {
+  color: white;
+}
+
+.contenitore .centered button:hover {
+  background-color: #04c2c9;
+}
+/*# sourceMappingURL=prima-parte.component.css.map */

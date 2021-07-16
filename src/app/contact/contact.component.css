@@ -1,0 +1,58 @@
+.contact {
+  background-color: #252934;
+}
+
+.contact .box h3 {
+  color: white;
+  text-align: center;
+}
+
+.contact .box p {
+  text-align: center;
+  color: #04c2c9;
+}
+
+.contact .box a {
+  text-decoration: none;
+  color: white;
+}
+
+.social {
+  padding-top: 20px;
+  background-color: #1b242f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+}
+
+.social img {
+  padding: 10px;
+}
+
+.social .box:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.social .box:last-child span {
+  color: white;
+}
+/*# sourceMappingURL=contact.component.css.map */
