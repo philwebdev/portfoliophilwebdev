@@ -8,6 +8,7 @@ nav .navbar-collapse {
 
 nav .navbar-collapse .nav-item a {
   color: white;
+  cursor: pointer;
 }
 
 nav .navbar-collapse .nav-item a:hover {
@@ -16,6 +17,10 @@ nav .navbar-collapse .nav-item a:hover {
 
 nav .navbar-collapse .nav-item:first-child a {
   color: #04c2c9;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("https://img.icons8.com/office/16/000000/menu--v1.png");
 }
 
 @media screen and (max-width: 768px) {
