@@ -79,7 +79,10 @@
     width: 100%;
   }
   .contenitore h1 {
-    font-size: 20px;
+    font-size: 18px;
+  }
+  .box p {
+    font-size: 12px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
