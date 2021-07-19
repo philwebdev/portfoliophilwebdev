@@ -11,5 +11,7 @@ export class ContactComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  tornaSu(){
+    window.scrollTo(0, 0)
+  }
 }

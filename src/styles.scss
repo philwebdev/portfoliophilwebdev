@@ -6,9 +6,14 @@
   padding-bottom: 10px;
   h3{
     color:#444649;
-    font-weight: 700;
+    font-weight: 500;
     text-decoration: underline;
   }
+}
+
+.contenitore-bottone{
+  display: flex;
+  justify-content: center;
 }
 
 .container{

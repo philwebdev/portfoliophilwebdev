@@ -1,3 +1,12 @@
+button{border:none;  background-color: white;}
+button:hover{
+  background-color: white;
+}
+.contenitore-bottone{
+  z-index:1;
+  top:-68px;
+  position: relative;
+}
 .contact{
   background-color:#252934;
   .box{

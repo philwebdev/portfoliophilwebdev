@@ -13,7 +13,7 @@
           </video>
           <p>Progetto realizzato con il pattern MVC di .NET, utilizzando Entity Framework</p>
           <div class="contenitore-bottone">
-            <button type="button" class="btn btn-outline-secondary">GO TO SOURCE CODE</button>
+            <button type="button" class="btn btn-outline-secondary"  (click)="open(mymodal)">DETAIL</button>
           </div>
         </div>
       </div>
@@ -24,7 +24,7 @@
           </video>
           <p>Progetto realizzato con il pattern MVC di .NET e Angular</p><br>
           <div class="contenitore-bottone">
-            <button type="button" class="btn btn-outline-secondary">GO TO SOURCE CODE</button>
+            <button type="button" class="btn btn-outline-secondary"  (click)="open(mymodal1)">DETAIL</button>
           </div>
         </div>
       </div>
@@ -35,7 +35,7 @@
           </video>
           <p>Progetto realizzato con HTML,CSS e Javascript</p><br>
           <div class="contenitore-bottone">
-            <button type="button" class="btn btn-outline-secondary">GO TO SOURCE CODE</button>
+            <button type="button" class="btn btn-outline-secondary" (click)="open(mymodal2)">DETAIL</button>
           </div>
         </div>
       </div>
@@ -45,3 +45,49 @@
   </div>
 
 </section>
+<ng-template #mymodal let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Gestionale Hotel</h4>
+    <button type="button" class="close btn btn-light" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <img src="assets/img/cancel.png">
+    </button>
+  </div>
+  <div class="modal-body">
+    <p>Work In progress</p>
+  </div>
+  <div class="modal-footer contenitore-bottone">
+    <button type="button" class="btn btn-outline-secondary" (click)="modal.close('Save click')">CHIUDI</button>
+  </div>
+</ng-template>
+
+<ng-template #mymodal1 let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Web App Hotel</h4>
+    <button type="button" class="close btn btn-light" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <img src="assets/img/cancel.png">
+    </button>
+  </div>
+  <div class="modal-body">
+    <p>Work In progress</p>
+  </div>
+  <div class="modal-footer contenitore-bottone">
+    <button type="button" class="btn btn-outline-secondary" (click)="modal.close('Save click')">CHIUDI</button>
+  </div>
+</ng-template>
+
+<ng-template #mymodal2 let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Blog</h4>
+    <button type="button" class="close btn btn-light" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <img src="assets/img/cancel.png">
+    </button>
+  </div>
+  <div class="modal-body">
+    <p>Work In progress</p>
+  </div>
+  <div class="modal-footer contenitore-bottone">
+    <button type="button" class="btn btn-outline-secondary" (click)="modal.close('Save click')">CHIUDI</button>
+  </div>
+</ng-template>
+
+
